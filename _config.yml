@@ -4,16 +4,20 @@
 # ---------------------------------------------------------------
 
 
-repository: Maxith/maxith.github.io
+# repository: Maxith/maxith.github.io
+repository: Ice-winters/Ice-wintesr.github.io
 
 # Site
-title: Maxith's Bolg
+title: Ice-winters Blog
 subtitle:
-description: 再好的框架也无法概括人生
-author: Maxith Zhou
+# description: 再好的框架也无法概括人生
+description: 很多我们以为一辈子都不会忘掉的事情，就在我们念念不忘的日子里．被我们遗忘了．
+
+# author: Maxith Zhou
+author: ice-winters
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
-date_format: '%Y-%m-%d' 
+date_format: '%Y-%m-%d'
 future: true
 
 # URL
@@ -222,9 +226,9 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/Maxith
-  知乎: http://www.zhihu.com/people/zhou-you-95-41
-  V2EX: https://www.v2ex.com/member/zhouyou457
+  GitHub: https://github.com/Ice-winters
+  # 知乎: http://www.zhihu.com/people/zhou-you-95-41
+  # V2EX: https://www.v2ex.com/member/zhouyou457
 
 
 # Social Links Icons
@@ -254,7 +258,7 @@ toc:
   number: false
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: false 
+  wrap: false
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -265,8 +269,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  # position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -371,7 +375,7 @@ highlight_theme: night eighties
 
 # MathJax Support
 mathjax:
-  enable: true 
+  enable: true
   cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
