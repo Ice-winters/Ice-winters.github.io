@@ -1,22 +1,20 @@
 ---
 layout: post
-title:  "《SpringCloud微服务架构》-- Eureka-1"
-date: 2019-04-15 17:53:38
+title: "服务发现注册 Eureka（一）"
+date: 2019-04-15 16:43:52
 tags:
     - java
-    - Algorithm
     - micro-service
-categories: 微服务架构
+categories: 《SpringCloud微服务架构》
 ---
 
-{:toc}
 
-# 什么是算法
+# 什么是服务发现与注册
 >&emsp; In mathematics and computer science, an algorithm is an unambiguous specification of how to solve a class of problems. Algorithms can perform calculation, data processing and automated reasoning tasks.  
 >&emsp;在数学和计算机科学中，算法是如何解决一类问题的明确规范。 算法可以执行计算，数据处理和自动推理任务。
 ><p align="right">--- <a href="https://en.wikipedia.org/wiki/Algorithm">维基百科</a></p>
 
-通俗的来讲，人们在给定一个输入条件由一定的**简单计算步骤**过后总能产生正确的输出结果，我们就把这些计算步骤统称为算法。
+通俗的来讲，人们在给定一个输入条件由一定的**简单计算步骤**过后总能产生正确的输出结果，我们就把这些计算步骤统称为**算法**。
 
 # 算法复杂度
 每一个算法完成计算所需要花费的时间叫做`时间复杂度 (Time Complexity)`,完成计算所需要花费的空间叫做`空间复杂度 (Space Complexity)`。通常来说，时间和空间两个维度是矛盾的，一个算法无法同时兼顾快速运行和低空间消耗。
